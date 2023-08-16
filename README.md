@@ -1,25 +1,24 @@
 # MERN Проєкт
 
-% Посилання на серверну частину - https://github.com/Martucia/questionnaires_server
-% Посилання на сайт - https://questionnaires-client.vercel.app/admin
+Цей репозиторій містить код для MERN (MongoDB, Express, React, Node.js) проєкту.
 
-# Використані технології:
+- Посилання на серверну частину: [GitHub - Server](https://github.com/Martucia/questionnaires_server)
+- Посилання на сайт: [Questionnaires Site](https://questionnaires-client.vercel.app/admin)
 
-# Front-end
+## Використані технології
+
+### Front-end
 
 - React
 - Redux
 - SASS
-- framer-motion ( Reorder )
+- framer-motion (Reorder)
 
-# Back-end
+### Back-end
 
-- Nodejs
+- Node.js
 - Express
 - Express-validator
-- mongodb/mongoose
+- MongoDB / Mongoose
 - jsonwebtoken
 - bcryptjs
-
-
-
