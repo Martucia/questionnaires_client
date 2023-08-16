@@ -1,0 +1,40 @@
+.block
+    display: grid
+    grid-template-areas: "name btns" "date btns"
+    background: #fff
+    border-radius: 5px
+    padding: 26px 30px 20px
+    @media screen and ( max-width: 600px )
+        grid-template-areas: "name" "date" "btns"
+
+.name
+    grid-area: name
+    color: #000
+    font-size: 23px
+    font-weight: 700
+    line-height: 110%
+    margin-bottom: 26px
+    @media screen and ( max-width: 600px )
+        font-size: 20px
+        margin-bottom: 12px
+
+.date
+    grid-area: date
+    color: #444
+    font-family: Montserrat
+    font-size: 12px
+    font-style: normal
+    font-weight: 400
+    line-height: normal
+
+.btns
+    grid-area: btns
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    gap: 20px
+    button,a
+        height: 20px
+    @media screen and ( max-width: 600px )
+        margin-top: 40px
+        gap: 30px

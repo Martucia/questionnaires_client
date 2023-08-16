@@ -1,0 +1,12 @@
+@import '@variables'
+
+.admin
+    display: grid
+    grid-template-columns: 200px 1fr
+    gap: 12px
+    width: 100%
+    padding: 0 $page-padding
+    @media screen and ( max-width: 1000px )
+        grid-template-columns: 1fr
+    @media screen and ( max-width: 600px )
+        padding: 12px $mini-page-padding

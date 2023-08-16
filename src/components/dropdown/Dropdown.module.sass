@@ -1,0 +1,70 @@
+@import '@variables'
+
+.label
+    display: flex
+    flex-direction: column
+    gap: 12px
+    color: #727272
+    font-size: 12px
+
+.name
+    padding-left: 10px
+
+.dropdown
+    display: flex
+    flex-direction: column
+    gap: 10px
+    color: #727272
+    font-size: 12px
+    position: relative
+
+.toggle
+    transition: 0.3s
+    width: 100%
+    background: #FFFFFF
+    border-bottom: 1px solid #D3D3D3
+    font-size: 16px
+    display: flex
+    justify-content: space-between
+    padding-bottom: 12px
+    align-items: center
+    &.toggle_error
+        border-color: $red
+
+.error
+    color: $red
+    font-size: 12px
+
+.input_block
+    width: 100%
+    position: relative
+
+.list
+    background: #fff
+    position: absolute
+    top: 36px
+    left: 0
+    width: 100%
+    display: flex
+    flex-direction: column
+    gap: 5px
+    padding: 10px
+    z-index: 10
+    border: 1px solid #F4F4F4
+
+.option
+    font-size: 13px
+    color: #000
+    padding: 10px 0
+    cursor: pointer
+    border-bottom: 1px solid #F4F4F4
+    padding-left: 15px
+    transition: 0.3s
+    border-radius: 10px
+    &:hover
+        background: #f4f4f488
+    &:last-child
+        border-bottom: 0
+
+.arrow
+    height: 10px

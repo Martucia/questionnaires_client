@@ -1,0 +1,28 @@
+@import '@variables'
+
+.input
+    border-bottom: 1px solid #D3D3D3
+    width: 100%
+    padding-bottom: 12px
+    font-size: 16px
+    transition: 0.3s
+    min-width: 100%
+    max-width: 100%
+    transition: 0.3s
+    &:focus
+        border-color: #F9C50D
+    &.input_error
+        border-color: $red
+
+.error
+    color: $red
+    font-size: 12px
+
+.label
+    display: flex
+    flex-direction: column
+    gap: 12px
+    color: #727272
+    width: 100%
+    .required
+        color: $red

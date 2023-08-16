@@ -1,0 +1,19 @@
+.block
+    display: grid
+    grid-template-areas: "input drop btn"
+    grid-template-columns: 1fr 200px 20px
+    gap: 12px
+    width: 100%
+    align-items: center
+    @media screen and ( max-width: 1000px )
+        grid-template-columns: 1fr 20px
+        grid-template-areas: "input btn" "drop ."
+
+.input
+    grid-area: input
+
+.drop
+    grid-area: drop
+
+.btn
+    grid-area: btn
